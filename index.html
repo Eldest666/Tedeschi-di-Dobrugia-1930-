@@ -8,7 +8,9 @@
 
     <style>
 
-        /* IMPOSTAZIONI GENERALI */
+        /* ==================================================
+           IMPOSTAZIONI GENERALI
+           ================================================== */
 
         body {
             margin: 0;
@@ -18,7 +20,10 @@
             line-height: 1.6;
         }
 
-        /* TESTATA */
+
+        /* ==================================================
+           TESTATA
+           ================================================== */
 
         header {
             background-color: #263238;
@@ -40,7 +45,10 @@
             opacity: 0.9;
         }
 
-        /* CONTENITORE */
+
+        /* ==================================================
+           CONTENITORE PRINCIPALE
+           ================================================== */
 
         main {
             max-width: 1200px;
@@ -48,7 +56,10 @@
             padding: 0 25px;
         }
 
-        /* SEZIONI */
+
+        /* ==================================================
+           SEZIONI
+           ================================================== */
 
         section {
             background-color: white;
@@ -75,13 +86,19 @@
             font-size: 17px;
         }
 
-        /* INTRODUZIONE */
+
+        /* ==================================================
+           INTRODUZIONE
+           ================================================== */
 
         .intro {
             font-size: 18px;
         }
 
-        /* FOTO */
+
+        /* ==================================================
+           FOTOGRAFIE
+           ================================================== */
 
         .foto {
             display: flex;
@@ -107,7 +124,10 @@
             margin-top: 8px;
         }
 
-        /* LEGENDA */
+
+        /* ==================================================
+           LEGENDA GENERALE
+           ================================================== */
 
         .legenda {
             margin: 25px 0 30px 0;
@@ -129,6 +149,11 @@
             font-size: 16px;
         }
 
+
+        /* ==================================================
+           COLORI DELLA LEGENDA DELLA PRIMA MAPPA
+           ================================================== */
+
         .colore {
             width: 18px;
             height: 18px;
@@ -138,8 +163,6 @@
             border: 1px solid rgba(0,0,0,0.25);
             flex-shrink: 0;
         }
-
-        /* COLORI DELLA LEGENDA */
 
         .azzurro {
             background-color: #66c2ff;
@@ -161,7 +184,52 @@
             background-color: #e31a1c;
         }
 
-        /* MAPPE */
+
+        /* ==================================================
+           LEGENDA DELLA SECONDA MAPPA
+           ================================================== */
+
+        .legenda-dimensioni li {
+            min-height: 50px;
+        }
+
+        .cerchio {
+            display: inline-block;
+            border-radius: 50%;
+            background-color: #8b0000;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+
+        .cerchio-1 {
+            width: 10px;
+            height: 10px;
+        }
+
+        .cerchio-2 {
+            width: 16px;
+            height: 16px;
+        }
+
+        .cerchio-3 {
+            width: 24px;
+            height: 24px;
+        }
+
+        .cerchio-4 {
+            width: 34px;
+            height: 34px;
+        }
+
+        .cerchio-5 {
+            width: 46px;
+            height: 46px;
+        }
+
+
+        /* ==================================================
+           MAPPE
+           ================================================== */
 
         .mappa {
             width: 100%;
@@ -171,7 +239,10 @@
             margin-top: 20px;
         }
 
-        /* NOTA METODOLOGICA */
+
+        /* ==================================================
+           NOTE METODOLOGICHE
+           ================================================== */
 
         .nota {
             background-color: #f7f7f7;
@@ -180,7 +251,19 @@
             border-left: 4px solid #90a4ae;
         }
 
-        /* FOOTER */
+
+        /* ==================================================
+           FONTI
+           ================================================== */
+
+        .fonti {
+            margin-top: 20px;
+        }
+
+
+        /* ==================================================
+           FOOTER
+           ================================================== */
 
         footer {
             background-color: #263238;
@@ -196,7 +279,10 @@
             opacity: 0.85;
         }
 
-        /* VERSIONE PER SCHERMI PICCOLI */
+
+        /* ==================================================
+           SCHERMI PICCOLI
+           ================================================== */
 
         @media (max-width: 700px) {
 
@@ -215,6 +301,7 @@
             .mappa {
                 height: 600px;
             }
+
         }
 
     </style>
@@ -224,9 +311,9 @@
 <body>
 
 
-<!-- ====================================================== -->
-<!-- TESTATA -->
-<!-- ====================================================== -->
+<!-- ======================================================
+     TESTATA
+     ====================================================== -->
 
 <header>
 
@@ -243,69 +330,82 @@
 <main>
 
 
-<!-- ====================================================== -->
-<!-- INTRODUZIONE -->
-<!-- ====================================================== -->
+<!-- ======================================================
+     INTRODUZIONE STORICA
+     ====================================================== -->
 
 <section>
 
     <h2>La presenza tedesca in Dobrugia</h2>
 
     <p class="intro">
-        La Dobrugia rappresentò uno dei principali territori di insediamento
-        della popolazione tedesca nei territori romeni. La presenza germanofona
-        nella regione era il risultato di differenti processi migratori e
-        colonizzatori sviluppatisi nel corso del XIX e dell'inizio del XX secolo.
+        La Dobrugia rappresentò uno dei territori nei quali si sviluppò,
+        nel corso dell'Ottocento e dell'inizio del Novecento, una significativa
+        presenza di popolazione di lingua tedesca.
     </p>
 
     <p>
-        <!-- INSERIRE QUI IL TESTO STORICO PIÙ DETTAGLIATO -->
-        Questa sezione sarà dedicata alla ricostruzione delle vicende storiche
-        delle comunità tedesche della Dobrugia, alla loro distribuzione
-        territoriale e ai rapporti con le altre popolazioni della regione.
+        <!--
+        QUI INSERIREMO IL TESTO STORICO DEFINITIVO.
+
+        Potremo spiegare:
+        - l'origine delle comunità tedesche;
+        - i processi migratori e colonizzatori;
+        - la distribuzione degli insediamenti;
+        - il passaggio della Dobrugia alla Romania;
+        - la situazione nel periodo interbellico;
+        - il censimento del 1930.
+        -->
+
+        La popolazione tedesca della regione era distribuita in numerosi
+        insediamenti, nei quali il suo peso demografico poteva variare
+        considerevolmente. In alcune località i tedeschi costituivano
+        soltanto una minoranza della popolazione, mentre in altre
+        rappresentavano la maggioranza o la quasi totalità degli abitanti.
     </p>
 
     <p>
-        Le mappe presentate in questo sito utilizzano i dati del censimento
-        del 1930 per rappresentare la distribuzione della popolazione tedesca
-        nei diversi centri abitati della Dobrugia.
+        Il censimento del 1930 permette di osservare questa distribuzione
+        in un momento particolarmente significativo della storia della
+        Dobrugia e delle sue comunità germanofone.
     </p>
 
 </section>
 
 
-<!-- ====================================================== -->
-<!-- FOTOGRAFIE -->
-<!-- ====================================================== -->
+<!-- ======================================================
+     FOTOGRAFIE
+     ====================================================== -->
 
 <section>
 
     <h2>Le comunità tedesche della Dobrugia</h2>
 
     <p>
-        <!-- INSERIRE QUI EVENTUALE TESTO INTRODUTTIVO ALLE FOTO -->
-        Questa sezione può essere utilizzata per presentare fotografie
-        storiche, immagini degli insediamenti o altri documenti relativi
-        alla presenza tedesca nella Dobrugia.
+        Fotografie, documenti e immagini storiche possono contribuire
+        a restituire un'immagine concreta degli insediamenti e della vita
+        delle comunità tedesche della Dobrugia.
     </p>
 
 
     <div class="foto">
 
         <!--
-        PER INSERIRE UNA FOTO:
+        LE FOTOGRAFIE VERRANNO INSERITE QUI.
 
-        1. crea nel repository una cartella chiamata "immagini"
-        2. carica dentro la fotografia
-        3. sostituisci "nome-foto.jpg" con il nome del file
-
-        Esempio:
+        Per esempio:
 
         <div class="foto-box">
-            <img src="immagini/nome-foto.jpg" alt="Descrizione della fotografia">
+
+            <img
+                src="immagini/nome-foto.jpg"
+                alt="Descrizione della fotografia">
+
             <div class="didascalia">
-                Didascalia della fotografia. Fonte: ...
+                Nome della località, anno.
+                Fonte: ...
             </div>
+
         </div>
         -->
 
@@ -314,9 +414,9 @@
 </section>
 
 
-<!-- ====================================================== -->
-<!-- MAPPA 1 -->
-<!-- ====================================================== -->
+<!-- ======================================================
+     PRIMA MAPPA
+     ====================================================== -->
 
 <section>
 
@@ -335,7 +435,7 @@
     </p>
 
 
-    <!-- LEGENDA -->
+    <!-- LEGENDA PRIMA MAPPA -->
 
     <div class="legenda">
 
@@ -382,38 +482,40 @@
     </iframe>
 
 
+    <!-- SPIEGAZIONE -->
+
     <div class="nota">
 
         <strong>Come leggere la mappa:</strong>
 
         Il colore dei punti indica il peso percentuale della popolazione
-        tedesca all'interno del singolo insediamento. La mappa permette quindi
-        di individuare non soltanto le località con una consistente presenza
-        tedesca, ma anche quelle nelle quali la popolazione germanofona
-        rappresentava una parte significativa della popolazione complessiva.
+        tedesca all'interno del singolo insediamento. La mappa consente
+        quindi di distinguere le località nelle quali la presenza tedesca
+        rappresentava una componente minoritaria da quelle nelle quali
+        i tedeschi costituivano la maggioranza della popolazione.
 
     </div>
 
 </section>
 
 
-<!-- ====================================================== -->
-<!-- MAPPA 2 -->
-<!-- ====================================================== -->
+<!-- ======================================================
+     SECONDA MAPPA
+     ====================================================== -->
 
 <section>
 
     <h2>2. Numero assoluto della popolazione tedesca</h2>
 
     <p>
-        La seconda mappa rappresenta il numero assoluto degli abitanti
-        tedeschi presenti nei diversi centri abitati della Dobrugia nel 1930.
+        La seconda mappa rappresenta le località della Dobrugia che nel 1930
+        ospitavano rilevanti comunità tedesche, in termini assoluti o
+        percentuali.
     </p>
 
     <p>
-        In questo caso i punti si distinguono per dimensione: quanto maggiore
-        è il numero degli abitanti tedeschi di una località, tanto maggiore
-        è la dimensione del relativo punto sulla mappa.
+        I punti, associati ai diversi insediamenti, si differenziano per le
+        loro dimensioni sulla base del numero di tedeschi residenti.
     </p>
 
 
@@ -423,18 +525,34 @@
 
         <h3>Legenda</h3>
 
-        <p>
-            La dimensione dei punti è proporzionale al numero assoluto
-            degli abitanti tedeschi.
-        </p>
+        <ul class="legenda-dimensioni">
 
-        <!--
-        QUI POTREMO INSERIRE UNA VERA LEGENDA CON
-        PALLINI DI DIMENSIONI DIFFERENTI.
+            <li>
+                <span class="cerchio cerchio-1"></span>
+                <span>0–100 tedeschi</span>
+            </li>
 
-        La costruiremo dopo aver verificato i valori
-        utilizzati dalla tua simbologia QGIS.
-        -->
+            <li>
+                <span class="cerchio cerchio-2"></span>
+                <span>100–250 tedeschi</span>
+            </li>
+
+            <li>
+                <span class="cerchio cerchio-3"></span>
+                <span>250–500 tedeschi</span>
+            </li>
+
+            <li>
+                <span class="cerchio cerchio-4"></span>
+                <span>500–1.000 tedeschi</span>
+            </li>
+
+            <li>
+                <span class="cerchio cerchio-5"></span>
+                <span>1.000–1.500 tedeschi</span>
+            </li>
+
+        </ul>
 
     </div>
 
@@ -448,38 +566,52 @@
     </iframe>
 
 
+    <!-- SPIEGAZIONE -->
+
     <div class="nota">
 
         <strong>Come leggere la mappa:</strong>
 
-        La dimensione dei punti permette di confrontare la consistenza
-        numerica delle comunità tedesche nei diversi insediamenti,
-        indipendentemente dal loro peso percentuale sulla popolazione locale.
+        La dimensione dei punti è proporzionale al numero di tedeschi
+        residenti nei diversi insediamenti. I punti di dimensioni maggiori
+        corrispondono quindi alle località nelle quali era presente il
+        maggior numero assoluto di abitanti tedeschi.
 
     </div>
 
 </section>
 
 
-<!-- ====================================================== -->
-<!-- FONTI E METODOLOGIA -->
-<!-- ====================================================== -->
+<!-- ======================================================
+     FONTI E METODOLOGIA
+     ====================================================== -->
 
 <section>
 
     <h2>Fonti e metodologia</h2>
 
     <p>
-        <!-- INSERIRE QUI LE FONTI -->
-        I dati utilizzati per la realizzazione delle mappe derivano dal
-        censimento della popolazione del 1930. In questa sezione saranno
-        indicate nel dettaglio le fonti utilizzate, i criteri di selezione
-        delle località e le modalità di elaborazione dei dati cartografici.
+        Le mappe sono state realizzate sulla base dei dati del censimento
+        della popolazione del 1930.
     </p>
 
     <p>
-        Le mappe sono state realizzate con QGIS e pubblicate attraverso
-        qgis2web.
+        <!--
+        QUI INSERIREMO LE FONTI COMPLETE.
+
+        Potremo specificare:
+        - fonte del censimento;
+        - eventuali altre fonti;
+        - criteri di selezione dei centri;
+        - calcolo delle percentuali;
+        - classificazione delle località;
+        - metodologia cartografica.
+        -->
+    </p>
+
+    <p>
+        La cartografia è stata elaborata con QGIS e pubblicata in formato
+        web attraverso qgis2web.
     </p>
 
 </section>
@@ -488,18 +620,18 @@
 </main>
 
 
-<!-- ====================================================== -->
-<!-- FOOTER -->
-<!-- ====================================================== -->
+<!-- ======================================================
+     FOOTER
+     ====================================================== -->
 
 <footer>
 
     <p>
-        Progetto sui tedeschi di Dobrugia nel 1930
+        I tedeschi di Dobrugia nel 1930
     </p>
 
     <p>
-        Cartografia realizzata con QGIS
+        Progetto di cartografia storica digitale
     </p>
 
 </footer>
