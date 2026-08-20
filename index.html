@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>I tedeschi di Dobrugia nel 1930</title>
+
 
     <style>
 
@@ -101,15 +103,14 @@
            ================================================== */
 
         .foto {
-            display: flex;
-            gap: 30px;
-            flex-wrap: wrap;
-            margin-top: 25px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 35px;
+            margin-top: 30px;
         }
 
         .foto-box {
-            flex: 1;
-            min-width: 280px;
+            min-width: 0;
         }
 
         .foto-box img {
@@ -121,7 +122,8 @@
         .didascalia {
             font-size: 14px;
             color: #666;
-            margin-top: 8px;
+            margin-top: 10px;
+            line-height: 1.5;
         }
 
 
@@ -151,7 +153,7 @@
 
 
         /* ==================================================
-           COLORI DELLA LEGENDA DELLA PRIMA MAPPA
+           COLORI DELLA PRIMA LEGENDA
            ================================================== */
 
         .colore {
@@ -253,15 +255,6 @@
 
 
         /* ==================================================
-           FONTI
-           ================================================== */
-
-        .fonti {
-            margin-top: 20px;
-        }
-
-
-        /* ==================================================
            FOOTER
            ================================================== */
 
@@ -302,9 +295,14 @@
                 height: 600px;
             }
 
+            .foto {
+                grid-template-columns: 1fr;
+            }
+
         }
 
     </style>
+
 </head>
 
 
@@ -345,18 +343,6 @@
     </p>
 
     <p>
-        <!--
-        QUI INSERIREMO IL TESTO STORICO DEFINITIVO.
-
-        Potremo spiegare:
-        - l'origine delle comunità tedesche;
-        - i processi migratori e colonizzatori;
-        - la distribuzione degli insediamenti;
-        - il passaggio della Dobrugia alla Romania;
-        - la situazione nel periodo interbellico;
-        - il censimento del 1930.
-        -->
-
         La popolazione tedesca della regione era distribuita in numerosi
         insediamenti, nei quali il suo peso demografico poteva variare
         considerevolmente. In alcune località i tedeschi costituivano
@@ -382,32 +368,117 @@
     <h2>Le comunità tedesche della Dobrugia</h2>
 
     <p>
-        Fotografie, documenti e immagini storiche possono contribuire
-        a restituire un'immagine concreta degli insediamenti e della vita
-        delle comunità tedesche della Dobrugia.
+        Le fotografie e le carte storiche riportate in questa sezione
+        contribuiscono a restituire un'immagine concreta degli insediamenti,
+        della popolazione e del territorio nel quale si svilupparono
+        le comunità tedesche della Dobrugia.
     </p>
 
 
     <div class="foto">
 
-        <!--
-        LE FOTOGRAFIE VERRANNO INSERITE QUI.
 
-        Per esempio:
+        <!-- FOTO 1 -->
 
         <div class="foto-box">
 
             <img
-                src="immagini/nome-foto.jpg"
-                alt="Descrizione della fotografia">
+                src="foto%20tedeschi%20dobrugia/Famiglia%20tedesca%20della%20Dobrugia%202.jpg"
+                alt="Famiglia tedesca della Dobrugia">
 
             <div class="didascalia">
-                Nome della località, anno.
-                Fonte: ...
+
+                <strong>Famiglia tedesca della Dobrugia.</strong><br>
+
+                Fonte: da indicare.
+
             </div>
 
         </div>
-        -->
+
+
+        <!-- FOTO 2 -->
+
+        <div class="foto-box">
+
+            <img
+                src="foto%20tedeschi%20dobrugia/Famiglia%20tedesca%20della%20Dobrugia.jpg"
+                alt="Famiglia tedesca della Dobrugia">
+
+            <div class="didascalia">
+
+                <strong>Famiglia tedesca della Dobrugia.</strong><br>
+
+                Fonte: da indicare.
+
+            </div>
+
+        </div>
+
+
+        <!-- FOTO 3 -->
+
+        <div class="foto-box">
+
+            <img
+                src="foto%20tedeschi%20dobrugia/Il%20villaggio%20tedesco%20di%20Colelia%2C%20non%20lontano%20da%20Tulcea%2C%20in%20una%20vecchia%20foto.jpg"
+                alt="Il villaggio tedesco di Colelia">
+
+            <div class="didascalia">
+
+                <strong>
+                    Il villaggio tedesco di Colelia, non lontano da Tulcea,
+                    in una vecchia fotografia.
+                </strong><br>
+
+                Fonte: da indicare.
+
+            </div>
+
+        </div>
+
+
+        <!-- FOTO 4 -->
+
+        <div class="foto-box">
+
+            <img
+                src="foto%20tedeschi%20dobrugia/Mappa%20della%20Dobrugia%2C%20oggi%20divisa%20tra%20Romania%20e%20Bulgaria.png"
+                alt="Mappa della Dobrugia, oggi divisa tra Romania e Bulgaria">
+
+            <div class="didascalia">
+
+                <strong>
+                    Mappa della Dobrugia, oggi divisa tra Romania e Bulgaria.
+                </strong><br>
+
+                Fonte: da indicare.
+
+            </div>
+
+        </div>
+
+
+        <!-- FOTO 5 -->
+
+        <div class="foto-box">
+
+            <img
+                src="foto%20tedeschi%20dobrugia/Mappa%20etnografica%20della%20Dobrugia%20%281900%29.jpg"
+                alt="Mappa etnografica della Dobrugia del 1900">
+
+            <div class="didascalia">
+
+                <strong>
+                    Mappa etnografica della Dobrugia (1900).
+                </strong><br>
+
+                Fonte: da indicare.
+
+            </div>
+
+        </div>
+
 
     </div>
 
@@ -435,7 +506,7 @@
     </p>
 
 
-    <!-- LEGENDA PRIMA MAPPA -->
+    <!-- LEGENDA -->
 
     <div class="legenda">
 
@@ -444,28 +515,52 @@
         <ul>
 
             <li>
+
                 <span class="colore azzurro"></span>
-                <strong>Azzurro</strong>&nbsp; — piccole minoranze germanofone
+
+                <strong>Azzurro</strong>&nbsp; —
+                piccole minoranze germanofone
+
             </li>
 
+
             <li>
+
                 <span class="colore verde"></span>
-                <strong>Verde</strong>&nbsp; — forti minoranze germanofone
+
+                <strong>Verde</strong>&nbsp; —
+                forti minoranze germanofone
+
             </li>
 
+
             <li>
+
                 <span class="colore giallo"></span>
-                <strong>Giallo</strong>&nbsp; — località a maggioranza germanofona
+
+                <strong>Giallo</strong>&nbsp; —
+                località a maggioranza germanofona
+
             </li>
 
+
             <li>
+
                 <span class="colore arancio"></span>
-                <strong>Arancio</strong>&nbsp; — località a netta maggioranza germanofona
+
+                <strong>Arancio</strong>&nbsp; —
+                località a netta maggioranza germanofona
+
             </li>
 
+
             <li>
+
                 <span class="colore rosso"></span>
-                <strong>Rosso</strong>&nbsp; — località completamente germanofone
+
+                <strong>Rosso</strong>&nbsp; —
+                località completamente germanofone
+
             </li>
 
         </ul>
@@ -519,7 +614,7 @@
     </p>
 
 
-    <!-- LEGENDA SECONDA MAPPA -->
+    <!-- LEGENDA -->
 
     <div class="legenda">
 
@@ -527,30 +622,61 @@
 
         <ul class="legenda-dimensioni">
 
+
             <li>
+
                 <span class="cerchio cerchio-1"></span>
-                <span>0–100 tedeschi</span>
+
+                <span>
+                    0–100 tedeschi
+                </span>
+
             </li>
 
+
             <li>
+
                 <span class="cerchio cerchio-2"></span>
-                <span>100–250 tedeschi</span>
+
+                <span>
+                    100–250 tedeschi
+                </span>
+
             </li>
 
+
             <li>
+
                 <span class="cerchio cerchio-3"></span>
-                <span>250–500 tedeschi</span>
+
+                <span>
+                    250–500 tedeschi
+                </span>
+
             </li>
 
+
             <li>
+
                 <span class="cerchio cerchio-4"></span>
-                <span>500–1.000 tedeschi</span>
+
+                <span>
+                    500–1.000 tedeschi
+                </span>
+
             </li>
 
+
             <li>
+
                 <span class="cerchio cerchio-5"></span>
-                <span>1.000–1.500 tedeschi</span>
+
+                <span>
+                    1.000–1.500 tedeschi
+                </span>
+
             </li>
+
 
         </ul>
 
@@ -596,17 +722,10 @@
     </p>
 
     <p>
-        <!--
-        QUI INSERIREMO LE FONTI COMPLETE.
-
-        Potremo specificare:
-        - fonte del censimento;
-        - eventuali altre fonti;
-        - criteri di selezione dei centri;
-        - calcolo delle percentuali;
-        - classificazione delle località;
-        - metodologia cartografica.
-        -->
+        In questa sezione saranno indicate nel dettaglio le fonti utilizzate,
+        i criteri di selezione delle località, le modalità di elaborazione
+        dei dati e i criteri adottati per la classificazione dei centri
+        abitati.
     </p>
 
     <p>
@@ -638,4 +757,5 @@
 
 
 </body>
+
 </html>
