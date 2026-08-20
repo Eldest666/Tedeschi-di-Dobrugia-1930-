@@ -731,13 +731,21 @@
         romeni, il numero di abitanti tedeschi, la percentuale di abitanti tedeschi, il
         numero di abitanti appartenenti ad altre etnie, la percentuale di abitanti
         appartenenti ad altre etnie, nonché le coordinate geografiche (latitudine
-        e longitudine).
+        e longitudine). Le percentuali - assieme al numero di abitanti appartenenti ad
+        altre etnie - sono state calcolate ricorrendo alle formule di Excel. Le
+        altre informazioni, invece, sono state trascritte a mano.
         Da Excel è stato poi ricavato un file ".CSV".
     </p>
 
     <p>
-        La cartografia è stata elaborata con QGIS e pubblicata in formato
-        web attraverso qgis2web.
+        La cartografia è stata elaborata con QGIS, attraverso l'importazione del
+        file ".CSV" creato in precedenza con Excel. Quest'ultimo, infatti, ha
+        permesso di generare due mappe interattive distinte. La prima sottolinea
+        le differenze tra le località sulla base dei valori percentuali, mentre la
+        seconda distingue gli insediamenti sulla base dei numeri assoluti.
+        Una volta create le carte su QGIS, sono state esportate attraverso qgis2web.
+        Infine, con GitHub è stata creata la pagina dedicata ai tedeschi di Dobrugia, che
+        incorpora le mappe, le legende, foto e descrizioni.
     </p>
 
 </section>
